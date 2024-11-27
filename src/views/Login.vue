@@ -1,15 +1,15 @@
 <script setup>
 import { useRouter } from 'vue-router';
 const router=useRouter();
-const goToContact=()=>{
-    router.push('/contact')
+const replace=()=>{
+    router.replace({ name: "home" });
 }
 </script>
 
 <template>
 
-<div>About page</div>
-<button @click="goToContact">Got to contact</button>
+<div>Login page</div>
+<button @click="replace">replace</button>
 </template>
 
 <style>

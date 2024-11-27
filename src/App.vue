@@ -6,7 +6,8 @@ import { RouterLink,RouterView } from 'vue-router';
 <template>
  
   <!-- RouterLink: Used for navigation between routes without reloading the page. -->
-  <RouterLink to="/">Home</RouterLink>
+  <RouterLink to="/">Login</RouterLink>
+  <RouterLink to="/home">Home</RouterLink> 
   <RouterLink to="/about">About</RouterLink>
   <RouterLink to="/contact">Contact</RouterLink> 
 
